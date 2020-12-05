@@ -1,7 +1,7 @@
-import bayern from './img/bayern.png';
-import psg from './img/psg.png';
-import data from './data.model';
-import './styles/Header.css';
+import bayern from '../img/bayern.png';
+import psg from '../img/psg.png';
+import data from '../data.model';
+import '../styles/Header.css';
 function Header() {
     return (
         <header className="header">

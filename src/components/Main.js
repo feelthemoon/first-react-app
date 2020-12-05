@@ -1,5 +1,5 @@
-import data from './data.model';
-import './styles/Main.css';
+import data from '../data.model';
+import '../styles/Main.css';
 function nameMargin(player) {
     if (player.number >= 10) {
         return <span className="name min--margin">{player.name} {player.surname}</span>
