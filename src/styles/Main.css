@@ -2,16 +2,17 @@
     display: flex;
     justify-content: space-between;
 }
-.main__list{
+.wrapper{
     max-width: 404px;
     width: 100%;
+}
+.main__list{
     margin: 0 auto;
     background: transparent linear-gradient(90deg, #09182D 0%, #162032 100%) 0% 0% no-repeat padding-box;
     list-style: none;
 }
 .main__row{
-    width: 100%;
-    padding: 20px 169px 20px 20px;
+    padding: 20px 169px 20px 21px;
     position: relative;
 }
 .main__row::after{
@@ -32,12 +33,12 @@
 }
 .name{
     font-size: 18px;
-    margin-left: 34px;
+    padding-left: 34px;
     line-height: 1.17;
-    color: #AAA092;
+    color: #aaa092;
 }
 .min--margin{
-    margin-left: 22px;
+    padding-left: 22px;
 }
 .title{
     color:#fff;

@@ -1,13 +1,17 @@
-.header{
-    margin-top: 34px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    font-weight:700;
-    font-size:100px;
-    line-height: 1.17;
+.header {
+  margin-top: 34px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.17;
 }
-.score{
-    margin-top: 3px;
-    display: block;
+
+.score {
+  padding-top: 3px;
+  display: block;
 }

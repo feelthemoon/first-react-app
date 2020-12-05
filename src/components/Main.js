@@ -9,7 +9,7 @@ function nameMargin(player) {
 function Main() {
     return (
         <main className="main">
-            <div>
+            <div className="wrapper">
                 <h2 className="title">{data.first.name}</h2>
                 <ul className="main__list">
                     {data.first.players.map
@@ -21,7 +21,7 @@ function Main() {
                     ))}
                 </ul>
             </div>
-            <div>
+            <div className="wrapper">
                <h2 className="title">{data.second.name}</h2>
                 <ul className="main__list">
                     {data.second.players.map(player => (
