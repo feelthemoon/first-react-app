@@ -1,0 +1,13 @@
+.header{
+    margin-top: 34px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    font-weight:700;
+    font-size:100px;
+    line-height: 1.17;
+}
+.score{
+    margin-top: 3px;
+    display: block;
+}
